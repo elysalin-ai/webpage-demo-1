@@ -979,45 +979,51 @@
       </div>
     </div>
 
-    <div class="booking-form">
-      <div class="form-group">
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name">
-      </div>
-      <div class="form-row">
+<div class="booking-form">
+      <form action="https://formspree.io/f/mqeoganr" method="POST">
         <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
         </div>
         <div class="form-group">
-          <label for="phone">Phone</label>
-          <input type="tel" id="phone" name="phone">
+          <label for="service">Treatment</label>
+          <select id="service" name="service" required>
+            <option value="">Please select...</option>
+            <option>Mediterranean / Classic Massage (Individual)</option>
+            <option>Aromatherapy Essential Oil Massage (Individual)</option>
+            <option>Couples Massage — Mediterranean / Classic</option>
+            <option>Couples Massage — Aromatherapy</option>
+            <option>Prepaid Package Inquiry</option>
+            <option>Add-on Enhancement Only</option>
+          </select>
         </div>
-      </div>
-      <div class="form-group">
-        <label for="service">Treatment</label>
-        <select id="service" name="service">
-          <option>Mediterranean / Classic Massage (Individual)</option>
-          <option>Aromatherapy Essential Oil Massage (Individual)</option>
-          <option>Couples Massage — Mediterranean / Classic</option>
-          <option>Couples Massage — Aromatherapy</option>
-          <option>Prepaid Package Inquiry</option>
-          <option>Add-on Enhancement Only</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="date">Preferred Date</label>
-        <input type="date" id="date" name="date">
-      </div>
-      <div class="form-group">
-        <label for="notes">Anything we should know?</label>
-        <textarea id="notes" name="notes" rows="3"></textarea>
-      </div>
-      <button type="button" class="form-submit" onclick="alert('Thank you. We will reach out to confirm your reservation.');">Request Reservation</button>
+        <div class="form-group">
+          <label for="date">Preferred Date</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="form-group">
+          <label for="notes">Anything we should know?</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="Preferred time, special requests, etc."></textarea>
+        </div>
+
+        <!-- Honeypot junk mail -->
+        <input type="text" name="_gotcha" style="display:none;">
+
+        <button type="submit" class="form-submit">Request Reservation</button>
+      </form>
     </div>
   </div>
 </section>
-
 <footer>
   <div class="footer-logo">Palm <span>Haven</span></div>
   <div class="footer-tag">A Sanctuary of Stillness</div>
