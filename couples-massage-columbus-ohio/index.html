@@ -88,14 +88,11 @@
     .split.reverse > * { direction: ltr; }
     .split img {
       width: 100%;
-      height: auto;
-      max-height: 70vh;
-      object-fit: contain;
+      height: 520px;
+      object-fit: cover;
       border-radius: 6px;
       display: block;
-      background: #e7eee4;
     }
-    .split.band img { background: #243328; }
     .split-copy { max-width: 38rem; }
     .split-copy h2 {
       font-size: clamp(2.2rem, 5vw, 3.3rem);
@@ -145,6 +142,7 @@
     }
     @media (max-width: 800px) {
       .split, .split.reverse, .service-grid { grid-template-columns: 1fr; direction: ltr; }
+      .split img { height: 280px; }
     }
     .faq-list { max-width: 860px; margin: 0 auto 4rem; padding: 0 1.2rem; }
     .faq-list h2 { text-align: center; font-size: clamp(2.2rem,5vw,3.2rem); color: #2f4636; margin-bottom: 1.6rem; }
@@ -271,21 +269,4 @@
   </details>
 </section>
 <footer>
-  <a class="footer-logo" href="/">Palm <span>Haven</span></a>
-  <div class="footer-tag">A Sanctuary of Stillness</div>
-  <div class="footer-nav">
-    <a href="/massage-columbus-ohio/">Columbus Massage</a>
-    <a href="/massage-dublin-ohio/">Dublin Massage</a>
-    <a href="/couples-massage-columbus-ohio/">Couples</a>
-    <a href="/aromatherapy-massage-dublin/">Aromatherapy</a>
-    <a href="/contact/">Contact</a>
-  </div>
-  <div class="footer-nap">
-    Palm Haven Spa · 5910 Venture Drive, Suite A, Dublin, Ohio 43017<br>
-    <a href="tel:+16148153399">(614) 815-3399</a> · Monday–Sunday, 10am–9pm
-  </div>
-  <div class="footer-bottom">© 2026 Palm Haven Spa. All rights reserved.</div>
-</footer>
-<script src="../script.js"></script>
-</body>
-</html>
+  <a 
