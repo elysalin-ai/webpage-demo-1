@@ -4,19 +4,145 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Couples Massage in Columbus, Ohio | Palm Haven Spa</title>
-  <meta name="description" content="Couples massage in Columbus, Ohio. Two therapists, private suite. Classic 60 min $140, 90 min $210. Northwest Columbus studio in Dublin.">
+  <meta name="description" content="Couples massage in Columbus, Ohio. A private room with two tables. Choose 60 or 90 minutes — Signature Classic, Mediterranean, or Aromatherapy. Dublin studio serving the Columbus area.">
   <link rel="canonical" href="https://palmhavenspa.com/couples-massage-columbus-ohio/">
   <meta property="og:title" content="Couples Massage in Columbus, Ohio | Palm Haven Spa">
-  <meta property="og:description" content="Side-by-side couples massage for Columbus date nights. Classic from $140.">
+  <meta property="og:description" content="A private room, two tables, 60 or 90 minutes. Classic, Mediterranean, or Aromatherapy.">
   <meta property="og:url" content="https://palmhavenspa.com/couples-massage-columbus-ohio/">
   <meta property="og:type" content="website">
-  <meta name="robots" content="index, follow">
+  <meta property="og:image" content="https://palmhavenspa.com/images/couples-columbus-hero.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
+  <style>
+    body.olive-align {
+      font-family: "DM Sans", sans-serif;
+      background: #f6f3ea;
+      color: #2c3a2e;
+    }
+    body.olive-align h1,
+    body.olive-align h2,
+    body.olive-align h3 {
+      font-family: "Cormorant Garamond", "DM Serif Display", serif;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+    .photo-hero {
+      position: relative;
+      min-height: 88vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #f4f8f0;
+      background:
+        linear-gradient(180deg, rgba(74,157,99,.55) 0%, rgba(42,107,66,.72) 48%, rgba(31,64,48,.78) 100%),
+        url("../images/couples-columbus-hero.jpg") center 40%/cover no-repeat;
+      padding: 9rem 1.4rem 5rem;
+    }
+    .photo-hero .kicker {
+      letter-spacing: .28em;
+      text-transform: uppercase;
+      font-size: .72rem;
+      margin-bottom: 1.1rem;
+      opacity: .9;
+    }
+    .photo-hero h1 {
+      font-size: clamp(2.6rem, 8vw, 5.2rem);
+      line-height: 1.05;
+      color: #f7f3e8;
+      max-width: 16ch;
+      margin: 0 auto 1.2rem;
+    }
+    .photo-hero p {
+      max-width: 34rem;
+      margin: 0 auto 2rem;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: rgba(247,243,232,.92);
+    }
+    .photo-hero .hero-btn {
+      display: inline-block;
+      background: #2f4636;
+      color: #f7f3e8;
+      text-decoration: none;
+      padding: .95rem 1.8rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-size: .72rem;
+      font-weight: 600;
+    }
+    .split {
+      max-width: 1080px;
+      margin: 0 auto 3.2rem;
+      padding: 0 1.4rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.4rem;
+      align-items: center;
+    }
+    .split.reverse { direction: rtl; }
+    .split.reverse > * { direction: ltr; }
+    .split img {
+      width: 100%;
+      height: 100%;
+      min-height: 280px;
+      object-fit: cover;
+      border-radius: 6px;
+      display: block;
+    }
+    .split-copy h2 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      color: #2f4636;
+      margin-bottom: 1rem;
+    }
+    .split-copy p {
+      color: #556258;
+      line-height: 1.75;
+      margin-bottom: 1rem;
+    }
+    .service-wrap { max-width: 1080px; margin: 0 auto 1.2rem; padding: 3rem 1.4rem 1rem; text-align: center; }
+    .service-wrap h2 { font-size: clamp(2rem, 5vw, 3.1rem); color: #2f4636; margin-bottom: 1rem; }
+    .service-wrap > p { color: #5b6b5e; max-width: 38rem; margin: 0 auto 2rem; line-height: 1.75; }
+    .service-grid {
+      max-width: 1080px;
+      margin: 0 auto 2rem;
+      padding: 0 1.4rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.2rem;
+    }
+    .service-box {
+      background: #e7eee4;
+      padding: 1.8rem 1.4rem 1.6rem;
+      text-align: left;
+      border-top: 3px solid #c4a35a;
+    }
+    .service-box h3 { font-size: 1.55rem; color: #2f4636; margin-bottom: .7rem; }
+    .service-box p { color: #556258; line-height: 1.7; margin-bottom: .9rem; }
+    .service-box .amt { font-family: "Cormorant Garamond", serif; color: #2f4636; font-size: 1.15rem; }
+    @media (max-width: 800px) {
+      .split, .split.reverse, .service-grid { grid-template-columns: 1fr; direction: ltr; }
+    }
+    .faq-list { max-width: 720px; margin: 0 auto 4rem; padding: 0 1.2rem; }
+    .faq-list h2 { text-align: center; font-size: clamp(2rem,5vw,3rem); color: #2f4636; margin-bottom: 1.6rem; }
+    .faq-list details {
+      background: #ead9a8;
+      margin-bottom: .7rem;
+      padding: 1rem 1.15rem;
+    }
+    .faq-list summary { cursor: pointer; font-weight: 600; color: #243328; list-style: none; }
+    .faq-list summary::-webkit-details-marker { display: none; }
+    .faq-list details p { margin: .8rem 0 .15rem; color: #4d5c50; line-height: 1.65; }
+    .mid-cta { text-align: center; padding: 1rem 1.4rem 3.5rem; }
+    .mid-cta a {
+      display: inline-block; background: #2f4636; color: #f7f3e8; text-decoration: none;
+      padding: .95rem 1.8rem; letter-spacing: .12em; text-transform: uppercase; font-size: .72rem; font-weight: 600;
+    }
+  </style>
 </head>
-<body class="inner">
+<body class="inner olive-align">
 <nav>
   <a class="logo" href="/">Palm <span>Haven</span></a>
   <button class="nav-toggle" aria-label="Open menu"><span></span></button>
@@ -31,40 +157,105 @@
   <a href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener" class="nav-cta">Book Now</a>
 </nav>
 
-<header class="page-hero">
-  <div class="crumbs"><a href="/">Home</a> · Couples Columbus</div>
-  <h1>Couples Massage in Columbus, Ohio</h1>
-  <p>Two therapists. One private suite. A quiet hour for Columbus date nights, anniversaries, and friends.</p>
+<header class="photo-hero">
+  <div>
+    <div class="kicker">Couples Massage · Columbus, Ohio</div>
+    <h1>A reserved hour, shared</h1>
+    <p>Come in from the city and let the room go still. Palm Haven sits among the quieter streets of Dublin, on the northwest edge of Columbus — a green studio kept for rest, not display. Here the two of you are given the same hour. The bodywork is unhurried. The air stays calm. You leave the visit the way you entered it: together.</p>
+    <a class="hero-btn" href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener">Book Your Couples Massage</a>
+  </div>
 </header>
 
-<section>
-  <div class="prose">
-    <p>Couples massage at Palm Haven is built for Columbus guests who want to unplug together without a hotel-spa bill. You settle side by side while two therapists work in sync. The studio is in Dublin — northwest Columbus — with parking at the door and hours until 9pm.</p>
-    <h2>Classic or aromatherapy</h2>
-    <p><strong>Classic</strong> is firm, familiar bodywork for both of you. <strong>Aromatherapy</strong> adds organic essential oil blends. Either session can be 60 or 90 minutes. Prepaid packages do not apply to couples bookings.</p>
+<section class="split">
+  <img src="../images/massage-couples.jpg" alt="Couples massage at Palm Haven Spa, two guests side by side">
+  <div class="split-copy">
+    <h2>The shared session</h2>
+    <p>A couples session is the same careful bodywork we offer one guest — only the hour is shared. Signature Classic, Mediterranean, or Aromatherapy can be chosen independently, so each body receives the pace it needs.</p>
+    <p>Nothing in the treatment is hurried. Shoulders, back, and the places that stay tight are given time. The setting remains a small studio, quiet and green, on the edge of Columbus.</p>
+    <p>If you would like the session extended, ten minutes of head, foot, warm stone, or face work may be added for $15 per guest.</p>
   </div>
-  <div class="price-box">
-    <h3>Couples — Classic</h3>
-    <div class="price-row"><span>60 minutes</span><span><strong>$140</strong> <small>(Regular $240)</small></span></div>
-    <div class="price-row"><span>90 minutes</span><span><strong>$210</strong> <small>(Regular $360)</small></span></div>
-    <h3 style="margin-top:1.4rem;">Couples — Aromatherapy</h3>
-    <div class="price-row"><span>60 minutes</span><span><strong>$170</strong> <small>(Regular $270)</small></span></div>
-    <div class="price-row"><span>90 minutes</span><span><strong>$240</strong> <small>(Regular $390)</small></span></div>
+</section>
+
+<section class="split reverse">
+  <img src="../images/couples-room.jpg" alt="Private couples suite with two massage tables at Palm Haven Spa">
+  <div class="split-copy">
+    <h2>What the body takes from the hour</h2>
+    <p>Tension gathers where the week has been held — along the neck, through the shoulders, down the back. Side by side, that holding can be released at the same pace. Circulation returns. The breath lengthens. The room does the rest: low light, still air, and enough quiet for the nervous system to stand down.</p>
+    <p>There is also the simpler gift of not being separated. One guest does not wait in another room while the other is cared for. The visit has one beginning and one end.</p>
+    <p>People often describe the hour afterward as clearer. The body is softer. The mind is less crowded. That is the point of coming here together.</p>
   </div>
-  <div class="cta-band">
-    <a class="btn-primary btn-dark" href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener">Book couples massage</a>
+</section>
+
+<section class="split">
+  <img src="../images/couples-date.jpg" alt="Couples massage for a quiet evening in Dublin, Ohio">
+  <div class="split-copy">
+    <h2>For a date, a milestone, or no reason at all</h2>
+    <p>Some reservations mark an anniversary or a birthday. Some are simply an evening stolen back from the week — a place to set the city down and sit in a greener quiet.</p>
+    <p>The room is equally suited to partners, to close friends, and to family who do not often get an hour without interruption.</p>
   </div>
-  <div class="faq">
-    <h2 class="section-header" style="margin-bottom:1.5rem;">Questions</h2>
-    <details open>
-      <summary>Where should Columbus guests park?</summary>
-      <p>5910 Venture Drive, Suite A, Dublin, OH 43017. Free parking at the building. About 20–25 minutes from downtown Columbus off-peak.</p>
-    </details>
-    <details>
-      <summary>Is the room private?</summary>
-      <p>Yes. Couples sessions are in a shared private suite so you can talk or rest without other guests in the room.</p>
-    </details>
-  </div>
+</section>
+
+<section class="service-wrap">
+  <h2>How to choose the work</h2>
+  <p>Both treatments run at the same time. Each guest selects one of the following. The two guests do not have to choose the same style. Prepaid individual packages do not apply to couples reservations.</p>
+</section>
+
+<div class="service-grid">
+  <article class="service-box">
+    <h3>Signature Classic</h3>
+    <p>Swedish style. A full-body sequence of long, even strokes when the goal is general ease rather than concentrated work on a single area.</p>
+    <p class="amt">60 min $140 · 90 min $210</p>
+  </article>
+  <article class="service-box">
+    <h3>Mediterranean</h3>
+    <p>A slower session with closer attention to the neck, shoulders, and regions that remain restricted after a standard Swedish pass.</p>
+    <p class="amt">60 min $140 · 90 min $210</p>
+  </article>
+  <article class="service-box">
+    <h3>Aromatherapy</h3>
+    <p>The same full-body structure, supported by an organic essential-oil blend selected at the start of the visit.</p>
+    <p class="amt">60 min $170 · 90 min $240</p>
+  </article>
+</div>
+
+<div class="mid-cta">
+  <a href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener">Book Couples Massage</a>
+</div>
+
+<section class="faq-list">
+  <h2>Frequently asked questions</h2>
+  <details open>
+    <summary>Can we book two separate rooms instead of one shared room?</summary>
+    <p>Yes, when two individual rooms are available at the same time. Tell us when you book, or text (614) 815-3399, and we will confirm the schedule. If a second room is not free, we will offer the next time that works.</p>
+  </details>
+  <details>
+    <summary>Is the couples room private?</summary>
+    <p>Yes. The room is reserved for your appointment only. No other guests share it.</p>
+  </details>
+  <details>
+    <summary>Can each of us choose a different style?</summary>
+    <p>Yes. One guest may book Signature Classic and the other Mediterranean or Aromatherapy. Note the preference when you reserve.</p>
+  </details>
+  <details>
+    <summary>Can the pressure be different on each table?</summary>
+    <p>Yes. Each session is adjusted separately. Share injuries, sensitive areas, and how much pressure you want at the start.</p>
+  </details>
+  <details>
+    <summary>May we add head, foot, warm stone, or face work?</summary>
+    <p>Yes. Ten minutes may be added for $15 per guest. Ask when you book or at check-in.</p>
+  </details>
+  <details>
+    <summary>Do prepaid packages apply?</summary>
+    <p>Individual prepaid packages do not apply to a couples reservation.</p>
+  </details>
+  <details>
+    <summary>What should we bring?</summary>
+    <p>Wear clothing that is easy to change. Arrive a few minutes early. Tell us about pregnancy, recent injury, or scent sensitivity before the session begins.</p>
+  </details>
+  <details>
+    <summary>How do we book?</summary>
+    <p>Reserve on Vagaro or call (614) 815-3399. Ask for a couples appointment and the length you want — 60 or 90 minutes.</p>
+  </details>
 </section>
 
 <footer>
@@ -72,7 +263,9 @@
   <div class="footer-tag">A Sanctuary of Stillness</div>
   <div class="footer-nav">
     <a href="/massage-columbus-ohio/">Columbus Massage</a>
-    <a href="/couples-massage-columbus-ohio/">Couples Columbus</a>
+    <a href="/massage-dublin-ohio/">Dublin Massage</a>
+    <a href="/couples-massage-columbus-ohio/">Couples</a>
+    <a href="/aromatherapy-massage-dublin/">Aromatherapy</a>
     <a href="/contact/">Contact</a>
   </div>
   <div class="footer-nap">
