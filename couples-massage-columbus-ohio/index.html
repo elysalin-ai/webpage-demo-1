@@ -39,7 +39,7 @@
       background:
         linear-gradient(180deg, rgba(74,157,99,.55) 0%, rgba(42,107,66,.72) 48%, rgba(31,64,48,.78) 100%),
         url("../images/couples-columbus-hero.jpg") center 40%/cover no-repeat;
-      padding: 9rem 1.4rem 5rem;
+      padding: 9rem 5vw 5rem;
     }
     .photo-hero .kicker {
       letter-spacing: .28em;
@@ -74,24 +74,26 @@
       font-weight: 600;
     }
     .split {
-      max-width: 1280px;
-      margin: 0 auto 3.2rem;
-      padding: 0 1.4rem;
+      width: 100%;
+      max-width: none;
+      margin: 0;
+      padding: 4.5rem 5vw;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 2.4rem;
+      gap: 4rem;
       align-items: center;
+      box-sizing: border-box;
     }
     .split.reverse { direction: rtl; }
     .split.reverse > * { direction: ltr; }
     .split img {
       width: 100%;
-      height: 100%;
-      min-height: 280px;
+      height: 520px;
       object-fit: cover;
       border-radius: 6px;
       display: block;
     }
+    .split-copy { max-width: 36rem; }
     .split-copy h2 {
       font-size: clamp(1.8rem, 4vw, 2.6rem);
       color: #2f4636;
@@ -102,16 +104,25 @@
       line-height: 1.75;
       margin-bottom: 1rem;
     }
-    .service-wrap { max-width: 1280px; margin: 0 auto 1.2rem; padding: 3rem 1.4rem 1rem; text-align: center; }
+    .split.band { background: #2f4636; }
+    .split.band .split-copy h2,
+    .split.band .split-copy p { color: #f7f3e8; }
+    .service-wrap {
+      width: 100%;
+      margin: 0 auto 1.2rem;
+      padding: 3rem 5vw 1rem;
+      text-align: center;
+    }
     .service-wrap h2 { font-size: clamp(2rem, 5vw, 3.1rem); color: #2f4636; margin-bottom: 1rem; }
     .service-wrap > p { color: #5b6b5e; max-width: 38rem; margin: 0 auto 2rem; line-height: 1.75; }
     .service-grid {
-      max-width: 1280px;
+      width: 100%;
       margin: 0 auto 2rem;
-      padding: 0 1.4rem;
+      padding: 0 5vw;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 1.2rem;
+      box-sizing: border-box;
     }
     .service-box {
       background: #e7eee4;
@@ -121,9 +132,16 @@
     }
     .service-box h3 { font-size: 1.55rem; color: #2f4636; margin-bottom: .7rem; }
     .service-box p { color: #556258; line-height: 1.7; margin-bottom: .9rem; }
-    .service-box .amt { font-family: "Cormorant Garamond", serif; color: #2f4636; font-size: 1.15rem; }
+    .service-box .amt {
+      font-family: "Cormorant Garamond", serif;
+      color: #2f4636;
+      font-size: 1.25rem;
+      line-height: 1.75;
+      margin: 0;
+    }
     @media (max-width: 800px) {
       .split, .split.reverse, .service-grid { grid-template-columns: 1fr; direction: ltr; }
+      .split img { height: 280px; }
     }
     .faq-list { max-width: 860px; margin: 0 auto 4rem; padding: 0 1.2rem; }
     .faq-list h2 { text-align: center; font-size: clamp(2rem,5vw,3rem); color: #2f4636; margin-bottom: 1.6rem; }
@@ -176,7 +194,7 @@
   </div>
 </section>
 
-<section class="split reverse">
+<section class="split reverse band">
   <img src="../images/couples-room.jpg" alt="Private couples suite with two massage tables at Palm Haven Spa">
   <div class="split-copy">
     <h2>What the body takes from the hour</h2>
@@ -204,17 +222,17 @@
   <article class="service-box">
     <h3>Signature Classic</h3>
     <p>Swedish style. A full-body sequence of long, even strokes when the goal is general ease rather than concentrated work on a single area.</p>
-    <p class="amt">60 min $140 · 90 min $210</p>
+    <p class="amt">60 min $140<br>90 min $210</p>
   </article>
   <article class="service-box">
     <h3>Mediterranean</h3>
     <p>A slower session with closer attention to the neck, shoulders, and regions that remain restricted after a standard Swedish pass.</p>
-    <p class="amt">60 min $140 · 90 min $210</p>
+    <p class="amt">60 min $140<br>90 min $210</p>
   </article>
   <article class="service-box">
     <h3>Aromatherapy</h3>
     <p>The same full-body structure, supported by an organic essential-oil blend selected at the start of the visit.</p>
-    <p class="amt">60 min $170 · 90 min $240</p>
+    <p class="amt">60 min $170<br>90 min $240</p>
   </article>
 </div>
 
