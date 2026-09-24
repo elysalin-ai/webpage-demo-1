@@ -3,39 +3,168 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aromatherapy Massage in Dublin, OH | Palm Haven Spa</title>
-  <meta name="description" content="Aromatherapy essential oil massage in Dublin, Ohio. Individual 60 min $85, 90 min $120. Organic blends chosen for calm and balance at Palm Haven Spa.">
+  <title>Aromatherapy Massage in Dublin, Ohio | Palm Haven Spa</title>
+  <meta name="description" content="Aromatherapy massage in Dublin, Ohio. Full-body work with an organic essential-oil blend chosen when you arrive. 60 minutes $85. 90 minutes $120.">
   <link rel="canonical" href="https://palmhavenspa.com/aromatherapy-massage-dublin/">
-  <meta property="og:title" content="Aromatherapy Massage in Dublin, OH | Palm Haven Spa">
-  <meta property="og:description" content="Organic essential oil massage in Dublin. 60 min $85, 90 min $120.">
+  <meta property="og:title" content="Aromatherapy Massage in Dublin, Ohio | Palm Haven Spa">
+  <meta property="og:description" content="Full-body massage with an organic essential-oil blend. 60 min $85. 90 min $120.">
   <meta property="og:url" content="https://palmhavenspa.com/aromatherapy-massage-dublin/">
   <meta property="og:type" content="website">
-  <meta name="robots" content="index, follow">
+  <meta property="og:image" content="https://palmhavenspa.com/images/aromatherapy-dublin-hero.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Aromatherapy Essential Oil Massage",
-    "provider": { "@type": "DaySpa", "name": "Palm Haven Spa", "telephone": "+16148153399" },
-    "areaServed": "Dublin, Ohio",
-    "offers": [
-      { "@type": "Offer", "name": "60 minute Aromatherapy Massage", "price": "85", "priceCurrency": "USD" },
-      { "@type": "Offer", "name": "90 minute Aromatherapy Massage", "price": "120", "priceCurrency": "USD" }
-    ]
-  }
-  </script>
+  <style>
+    body.olive-align {
+      font-family: "DM Sans", sans-serif;
+      background: #f6f3ea;
+      color: #2c3a2e;
+    }
+    body.olive-align h1,
+    body.olive-align h2,
+    body.olive-align h3 {
+      font-family: "Cormorant Garamond", "DM Serif Display", serif;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+    .photo-hero {
+      position: relative;
+      min-height: 88vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #f4f8f0;
+      background:
+        linear-gradient(180deg, rgba(74,157,99,.55) 0%, rgba(42,107,66,.72) 48%, rgba(31,64,48,.78) 100%),
+        url("../images/aromatherapy-dublin-hero.jpg") center 40%/cover no-repeat;
+      padding: 9rem 5vw 5rem;
+    }
+    .photo-hero .kicker {
+      letter-spacing: .28em;
+      text-transform: uppercase;
+      font-size: .8rem;
+      margin-bottom: 1.1rem;
+      opacity: .9;
+    }
+    .photo-hero h1 {
+      font-size: clamp(2.8rem, 8vw, 5.4rem);
+      line-height: 1.05;
+      color: #f7f3e8;
+      max-width: 16ch;
+      margin: 0 auto 1.2rem;
+    }
+    .photo-hero p {
+      max-width: 36rem;
+      margin: 0 auto 2rem;
+      font-size: 1.18rem;
+      line-height: 1.75;
+      color: rgba(247,243,232,.92);
+    }
+    .photo-hero .hero-btn {
+      display: inline-block;
+      background: #2f4636;
+      color: #f7f3e8;
+      text-decoration: none;
+      padding: .95rem 1.8rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-size: .78rem;
+      font-weight: 600;
+    }
+    .split {
+      width: 100%;
+      margin: 0;
+      padding: 4.5rem 5vw;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      box-sizing: border-box;
+    }
+    .split.reverse { direction: rtl; }
+    .split.reverse > * { direction: ltr; }
+    .split img {
+      width: 100%;
+      height: 520px;
+      object-fit: cover;
+      border-radius: 6px;
+      display: block;
+    }
+    .split-copy { max-width: 38rem; }
+    .split-copy h2 {
+      font-size: clamp(2.2rem, 5vw, 3.3rem);
+      color: #2f4636;
+      margin-bottom: 1.1rem;
+    }
+    .split-copy p {
+      color: #556258;
+      font-size: 1.16rem;
+      line-height: 1.8;
+      margin-bottom: 1.05rem;
+    }
+    .split-copy a { color: #2f4636; }
+    .split.band { background: #2f4636; }
+    .split.band .split-copy h2,
+    .split.band .split-copy p { color: #f7f3e8; }
+    .split.band .split-copy a { color: #ead9a8; }
+    .service-wrap {
+      width: 100%;
+      padding: 3rem 5vw 1rem;
+      text-align: center;
+    }
+    .service-wrap h2 { font-size: clamp(2.2rem, 5vw, 3.3rem); color: #2f4636; margin-bottom: 1rem; }
+    .service-wrap > p { color: #5b6b5e; max-width: 40rem; margin: 0 auto 2rem; font-size: 1.16rem; line-height: 1.8; }
+    .price-box {
+      max-width: 420px;
+      margin: 0 auto 1rem;
+      background: #e7eee4;
+      padding: 2rem 1.6rem 1.8rem;
+      text-align: left;
+      border-top: 3px solid #c4a35a;
+    }
+    .price-box h3 { font-size: 1.85rem; color: #2f4636; margin: 0 0 .7rem; }
+    .price-box p { color: #556258; font-size: 1.08rem; line-height: 1.75; margin: 0 0 .9rem; }
+    .price-box .amt {
+      font-family: "Cormorant Garamond", serif;
+      color: #2f4636;
+      font-size: 1.4rem;
+      line-height: 1.75;
+      margin: 0;
+    }
+    .note {
+      text-align: center;
+      color: #5b6b5e;
+      font-size: 1.05rem;
+      margin: 1rem auto 0;
+      max-width: 36rem;
+    }
+    .note a { color: #2f4636; }
+    @media (max-width: 800px) {
+      .split, .split.reverse { grid-template-columns: 1fr; direction: ltr; }
+      .split img { height: 280px; }
+    }
+    .faq-list { max-width: 860px; margin: 0 auto 4rem; padding: 0 1.2rem; }
+    .faq-list h2 { text-align: center; font-size: clamp(2.2rem,5vw,3.2rem); color: #2f4636; margin-bottom: 1.6rem; }
+    .faq-list details { background: #ead9a8; margin-bottom: .7rem; padding: 1.1rem 1.2rem; }
+    .faq-list summary { cursor: pointer; font-weight: 600; font-size: 1.08rem; color: #243328; list-style: none; }
+    .faq-list summary::-webkit-details-marker { display: none; }
+    .faq-list details p { margin: .8rem 0 .15rem; color: #4d5c50; font-size: 1.05rem; line-height: 1.7; }
+    .mid-cta { text-align: center; padding: 1.4rem 1.4rem 3.5rem; }
+    .mid-cta a {
+      display: inline-block; background: #2f4636; color: #f7f3e8; text-decoration: none;
+      padding: .95rem 1.8rem; letter-spacing: .12em; text-transform: uppercase; font-size: .78rem; font-weight: 600;
+    }
+  </style>
 </head>
-<body class="inner">
+<body class="inner olive-align">
 <nav>
   <a class="logo" href="/">Palm <span>Haven</span></a>
   <button class="nav-toggle" aria-label="Open menu"><span></span></button>
   <ul class="nav-links">
-    <li><a href="/massage-dublin-ohio/">Massage</a></li>
-    <li><a href="/couples-massage-dublin-ohio/">Couples</a></li>
+    <li><a href="/massage-columbus-ohio/">Massage</a></li>
+    <li><a href="/couples-massage-columbus-ohio/">Couples</a></li>
     <li><a class="active" href="/aromatherapy-massage-dublin/">Aromatherapy</a></li>
     <li><a href="/packages/">Packages</a></li>
     <li><a href="/about/">Our Story</a></li>
@@ -44,52 +173,81 @@
   <a href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener" class="nav-cta">Book Now</a>
 </nav>
 
-<header class="page-hero">
-  <div class="crumbs"><a href="/">Home</a> · Aromatherapy</div>
-  <h1>Aromatherapy Massage in Dublin</h1>
-  <p>Organic essential oil blends and therapeutic touch at Palm Haven Spa in Dublin, Ohio.</p>
+<header class="photo-hero">
+  <div>
+    <div class="kicker">Aromatherapy · Dublin, Ohio</div>
+    <h1>Scent, then the hour</h1>
+    <p>A full-body massage with an organic essential-oil blend chosen when you arrive. Still a complete session — Classic structure, with breath and scent from the first minute on the table.</p>
+    <a class="hero-btn" href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener">Book Aromatherapy</a>
+  </div>
 </header>
 
-<section>
-  <div class="prose">
-    <p>Aromatherapy massage at Palm Haven pairs classic bodywork with oils chosen for the nervous system — calm, ease, or lift. It is still a full massage. The difference is scent, working with your breath from the first minute on the table.</p>
-    <p>Tell us if you prefer grounding, floral, or brighter citrus notes. We keep the room quiet so the blend can do its work. For firmer pressure without custom oils, book our <a href="/massage-dublin-ohio/">Mediterranean Classic massage</a>.</p>
+<section class="split">
+  <img src="../images/massage-essential.jpg" alt="Aromatherapy massage oils at Palm Haven Spa">
+  <div class="split-copy">
+    <h2>How does aromatherapy work?</h2>
+    <p>The blend is chosen with you at the start — grounding, floral, or a brighter citrus — then worked into the same full-body sequence as our Classic hour. Scent meets the breath first. Touch follows.</p>
+    <p>The oil is not a perfume poured over the room. It is a small amount, selected so the nervous system can settle rather than be crowded. If a note does not agree with you, we change it before the session begins.</p>
   </div>
-  <div class="price-box">
-    <h3>Individual aromatherapy</h3>
-    <div class="price-row"><span>60 minutes</span><span><strong>$85</strong> <small>(Regular $135)</small></span></div>
-    <div class="price-row"><span>90 minutes</span><span><strong>$120</strong> <small>(Regular $195)</small></span></div>
-    <p style="margin-top:1rem;color:var(--ink-soft);font-size:0.95rem;">Couples aromatherapy: 60 min $170 · 90 min $240. See <a href="/couples-massage-dublin-ohio/">couples massage</a>.</p>
+</section>
+
+<section class="split reverse band">
+  <img src="../images/massage-mediterranean.jpg" alt="What to expect during an aromatherapy massage">
+  <div class="split-copy">
+    <h2>What should you expect?</h2>
+    <p>You arrive a few minutes early. We ask about pressure, tender areas, and scent. Then you rest on the table while the hour moves through the back, shoulders, and legs — unhurried, the way a Classic session is built.</p>
+    <p>The difference is only the blend. The lights stay low. The room stays quiet. Tell us if you prefer little or no scent after all; we will adjust.</p>
   </div>
-  <div class="cta-band">
-    <a class="btn-primary btn-dark" href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener">Book aromatherapy</a>
+</section>
+
+<section class="split">
+  <img src="../images/massage-aromatherapy.jpg" alt="Benefits of aromatherapy massage">
+  <div class="split-copy">
+    <h2>Benefits of aromatherapy massage</h2>
+    <p>The body receives the same release as any full session: shoulders drop, the breath lengthens, the week loosens its hold. The blend is there to support that — calm when the day has been sharp, lift when the body feels heavy.</p>
+    <p>It is not a medical treatment. It is an hour in which scent and touch work together so the visit can land more completely.</p>
   </div>
-  <div class="faq">
-    <h2 class="section-header" style="margin-bottom:1.5rem;">Questions</h2>
-    <details open>
-      <summary>Can I skip a scent I dislike?</summary>
-      <p>Yes. Share sensitivities or preferences when you arrive. We will choose a blend that feels right.</p>
-    </details>
-    <details>
-      <summary>Do packages cover aromatherapy?</summary>
-      <p>No. $200 and $300 packages are for single-person Mediterranean / Classic massage only.</p>
-    </details>
-  </div>
+</section>
+
+<section class="service-wrap">
+  <h2>Introductory price</h2>
+  <p>The same full-body structure, supported by an organic essential-oil blend selected at the start of the visit.</p>
+</section>
+<div class="price-box">
+  <h3>Aromatherapy</h3>
+  <p>Individual session. Share scent preferences when you arrive.</p>
+  <p class="amt">60 min $85<br>90 min $120</p>
+</div>
+<p class="note">Couples aromatherapy is 60 min $170 and 90 min $240. See <a href="/couples-massage-columbus-ohio/">couples massage</a>.</p>
+
+<div class="mid-cta">
+  <a href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener">Book Aromatherapy</a>
+</div>
+
+<section class="faq-list">
+  <h2>Questions</h2>
+  <details open>
+    <summary>Can I skip a scent I dislike?</summary>
+    <p>Yes. Share sensitivities or preferences when you arrive. We will choose a blend that feels right.</p>
+  </details>
+  <details>
+    <summary>Do packages cover aromatherapy?</summary>
+    <p>No. $200 and $300 packages are for single-person Mediterranean / Classic massage only.</p>
+  </details>
 </section>
 
 <footer>
   <a class="footer-logo" href="/">Palm <span>Haven</span></a>
   <div class="footer-tag">A Sanctuary of Stillness</div>
   <div class="footer-nav">
+    <a href="/massage-columbus-ohio/">Columbus Massage</a>
     <a href="/massage-dublin-ohio/">Dublin Massage</a>
-    <a href="/couples-massage-dublin-ohio/">Couples</a>
+    <a href="/couples-massage-columbus-ohio/">Couples</a>
     <a href="/aromatherapy-massage-dublin/">Aromatherapy</a>
-    <a href="/packages/">Packages</a>
-    <a href="/about/">About</a>
     <a href="/contact/">Contact</a>
   </div>
   <div class="footer-nap">
-    Palm Haven Spa · 5910 Venture Drive, Dublin, Ohio 43017<br>
+    Palm Haven Spa · 5910 Venture Drive, Suite A, Dublin, Ohio 43017<br>
     <a href="tel:+16148153399">(614) 815-3399</a> · Monday–Sunday, 10am–9pm
   </div>
   <div class="footer-bottom">© 2026 Palm Haven Spa. All rights reserved.</div>
