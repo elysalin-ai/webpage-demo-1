@@ -116,13 +116,24 @@
     }
     .service-wrap h2 { font-size: clamp(2.2rem, 5vw, 3.3rem); color: #2f4636; margin-bottom: 1rem; }
     .service-wrap > p { color: #5b6b5e; max-width: 40rem; margin: 0 auto 2rem; font-size: 1.16rem; line-height: 1.8; }
-    .price-box {
-      max-width: 420px;
+    .price-grid {
+      width: 100%;
+      max-width: 860px;
       margin: 0 auto 1rem;
+      padding: 0 5vw;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      box-sizing: border-box;
+    }
+    .price-box {
       background: #e7eee4;
       padding: 2rem 1.6rem 1.8rem;
       text-align: left;
       border-top: 3px solid #c4a35a;
+    }
+    @media (max-width: 800px) {
+      .price-grid { grid-template-columns: 1fr; }
     }
     .price-box h3 { font-size: 1.85rem; color: #2f4636; margin: 0 0 .7rem; }
     .price-box p { color: #556258; font-size: 1.08rem; line-height: 1.75; margin: 0 0 .9rem; }
@@ -213,12 +224,18 @@
   <h2>Introductory price</h2>
   <p>The same full-body structure, supported by an organic essential-oil blend selected at the start of the visit.</p>
 </section>
-<div class="price-box">
-  <h3>Aromatherapy</h3>
-  <p>Individual session. Share scent preferences when you arrive.</p>
-  <p class="amt">60 min $85<br>90 min $120</p>
+<div class="price-grid">
+  <article class="price-box">
+    <h3>Aromatherapy · Individual</h3>
+    <p>The same full-body structure, supported by an organic essential-oil blend selected at the start of the visit.</p>
+    <p class="amt">60 min $85<br>90 min $120</p>
+  </article>
+  <article class="price-box">
+    <h3>Aromatherapy · Couples</h3>
+    <p>Two tables, one private suite. Each guest receives the aromatherapy hour.</p>
+    <p class="amt">60 min $170<br>90 min $240</p>
+  </article>
 </div>
-<p class="note">Couples aromatherapy is 60 min $170 and 90 min $240. See <a href="/couples-massage-columbus-ohio/">couples massage</a>.</p>
 
 <div class="mid-cta">
   <a href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener">Book Aromatherapy</a>
