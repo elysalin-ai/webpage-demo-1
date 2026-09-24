@@ -4,41 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Massage Spa in Columbus, Ohio | Palm Haven Spa</title>
-  <meta name="description" content="Massage spa serving Columbus, Ohio. Classic 60 min $70, 90 min $105. Northwest Columbus studio in Dublin at 5910 Venture Drive. Open daily 10am–9pm.">
+  <meta name="description" content="Palm Haven Spa in Dublin, Ohio. Classic, Mediterranean, aromatherapy, and couples massage. 5910 Venture Drive. Open daily 10am–9pm.">
   <link rel="canonical" href="https://palmhavenspa.com/">
   <meta property="og:title" content="Massage Spa in Columbus, Ohio | Palm Haven Spa">
-  <meta property="og:description" content="Classic, aromatherapy, and couples massage for Columbus. Studio in Dublin, OH.">
+  <meta property="og:description" content="A still room on Venture Drive. Classic, aromatherapy, and couples massage.">
   <meta property="og:url" content="https://palmhavenspa.com/">
   <meta property="og:type" content="website">
-  <meta name="robots" content="index, follow">
+  <meta property="og:image" content="https://palmhavenspa.com/images/home-hero.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "DaySpa",
-    "name": "Palm Haven Spa",
-    "url": "https://palmhavenspa.com/",
-    "telephone": "+16148153399",
-    "email": "info@palmhavenspa.com",
-    "image": "https://palmhavenspa.com/images/6GaKy.jpg",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "5910 Venture Drive, Suite A",
-      "addressLocality": "Dublin",
-      "addressRegion": "OH",
-      "postalCode": "43017",
-      "addressCountry": "US"
-    },
-    "openingHours": "Mo-Su 10:00-21:00",
-    "priceRange": "$$",
-    "areaServed": ["Dublin OH", "Columbus OH", "Powell OH", "Worthington OH", "Hilliard OH"]
-  }
-  </script>
+  <style>
+    body.olive-align { font-family: "DM Sans", sans-serif; background: #f6f3ea; color: #2c3a2e; }
+    body.olive-align h1, body.olive-align h2, body.olive-align h3 {
+      font-family: "Cormorant Garamond", serif; font-weight: 500; letter-spacing: -0.01em;
+    }
+    .photo-hero {
+      min-height: 88vh; display: flex; align-items: center; justify-content: center; text-align: center; color: #f7f3e8;
+      background: linear-gradient(180deg, rgba(74,157,99,.5) 0%, rgba(31,64,48,.78) 100%),
+        url("images/home-hero.jpg") center 40%/cover no-repeat;
+      padding: 9rem 5vw 5rem;
+    }
+    .photo-hero .kicker { letter-spacing: .28em; text-transform: uppercase; font-size: .8rem; margin-bottom: 1.1rem; opacity: .9; }
+    .photo-hero h1 { font-size: clamp(2.6rem, 7vw, 5rem); line-height: 1.08; color: #f7f3e8; max-width: 18ch; margin: 0 auto 1.2rem; }
+    .photo-hero p { max-width: 36rem; margin: 0 auto 1.1rem; font-size: 1.18rem; line-height: 1.75; color: rgba(247,243,232,.92); }
+    .photo-hero .hero-phone { margin: 0 auto 1.1rem; font-family: "Cormorant Garamond", serif; font-size: clamp(1.6rem, 3vw, 2.2rem); }
+    .photo-hero .hero-phone a { color: #f7f3e8; text-decoration: none; letter-spacing: .04em; }
+    .photo-hero .hero-btn {
+      display: inline-block; background: #2f4636; color: #f7f3e8; text-decoration: none;
+      padding: .95rem 1.8rem; letter-spacing: .12em; text-transform: uppercase; font-size: .78rem; font-weight: 600;
+    }
+    .service-wrap { padding: 3.2rem 5vw 1rem; text-align: center; }
+    .service-wrap h2 { font-size: clamp(2.2rem, 5vw, 3.3rem); color: #2f4636; margin-bottom: .8rem; }
+    .service-wrap > p { color: #5b6b5e; max-width: 40rem; margin: 0 auto 2rem; font-size: 1.12rem; line-height: 1.8; }
+    .service-grid {
+      width: 100%; padding: 0 5vw 1rem; display: grid;
+      grid-template-columns: repeat(5, 1fr); gap: 1rem; box-sizing: border-box;
+    }
+    .service-box {
+      background: #e7eee4; padding: 1.5rem 1.2rem 1.4rem; text-align: left; border-top: 3px solid #c4a35a;
+    }
+    .service-box h3 { font-size: 1.45rem; color: #2f4636; margin: 0 0 .55rem; }
+    .service-box p { color: #556258; font-size: 1rem; line-height: 1.7; margin: 0 0 .7rem; }
+    .service-box .amt {
+      font-family: "Cormorant Garamond", serif; color: #2f4636; font-size: 1.2rem; line-height: 1.65; margin: 0 0 .8rem;
+    }
+    .service-box a { color: #2f4636; font-size: .92rem; }
+    .band {
+      background: #2f4636; color: #f7f3e8; padding: 3.5rem 5vw; display: grid;
+      grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;
+    }
+    .band h2 { font-size: clamp(2rem, 4vw, 2.8rem); margin: 0 0 1rem; color: #f7f3e8; }
+    .band p { font-size: 1.12rem; line-height: 1.8; margin: 0 0 1rem; color: rgba(247,243,232,.9); }
+    .band a { color: #ead9a8; }
+    .visit { padding: 3.2rem 5vw; text-align: center; }
+    .visit h2 { font-size: clamp(2rem, 4vw, 2.8rem); color: #2f4636; }
+    .visit p { max-width: 36rem; margin: 0 auto 1rem; color: #556258; font-size: 1.12rem; line-height: 1.8; }
+    .visit a { color: #2f4636; }
+    .map-wrap { max-width: 920px; margin: 1.4rem auto; border-radius: 6px; overflow: hidden; }
+    @media (max-width: 1100px) { .service-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 800px) {
+      .service-grid, .band { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
-<body>
+<body class="olive-align">
 <nav>
   <a class="logo" href="/">Palm <span>Haven</span></a>
   <button class="nav-toggle" aria-label="Open menu"><span></span></button>
@@ -53,121 +84,73 @@
   <a href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener" class="nav-cta">Book Now</a>
 </nav>
 
-<section class="hero">
-  <svg class="palm-decoration palm-decoration--left" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-    <path d="M120 200 Q80 280 140 380" fill="none" stroke="#fff" stroke-width="18" stroke-opacity="0.15" stroke-linecap="round"/>
-    <path d="M180 180 Q140 260 200 360" fill="none" stroke="#fff" stroke-width="14" stroke-opacity="0.12" stroke-linecap="round"/>
-  </svg>
-  <svg class="palm-decoration palm-decoration--right" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-    <path d="M280 200 Q320 280 260 380" fill="none" stroke="#fff" stroke-width="18" stroke-opacity="0.15" stroke-linecap="round"/>
-    <path d="M220 180 Q260 260 200 360" fill="none" stroke="#fff" stroke-width="14" stroke-opacity="0.12" stroke-linecap="round"/>
-  </svg>
-  <div class="hero-content">
-    <div class="hero-eyebrow">A Sanctuary of Stillness</div>
-    <h1>Where palms whisper,<br>the soul <em>softens.</em></h1>
-    <p class="hero-sub">Massage spa serving Columbus, Ohio</p>
-    <p>Step into a tropical refuge at 5910 Venture Drive. Mediterranean, aromatherapy, and couples massage — with the quiet luxury of being cared for.</p>
-    <div class="hero-buttons">
-      <a href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener" class="btn-primary">Reserve Your Visit</a>
-      <a href="#services" class="btn-secondary">Explore Treatments</a>
-    </div>
+<header class="photo-hero">
+  <div>
+    <div class="kicker">A Sanctuary of Stillness</div>
+    <h1>Where palms whisper, the soul softens</h1>
+    <p class="hero-phone"><a href="tel:+16148153399">(614) 815-3399</a></p>
+    <p>A quiet studio at 5910 Venture Drive, Dublin — serving Columbus, Powell, Worthington, and Hilliard. Open daily 10am–9pm.</p>
+    <a class="hero-btn" href="https://www.vagaro.com/palmhavenspa" target="_blank" rel="noopener">Begin Your Visit</a>
   </div>
-  <div class="hero-scroll">Discover</div>
-</section>
+</header>
 
-<section class="services" id="services">
-  <div class="section-header">
-    <div class="section-eyebrow">Signature Treatments</div>
-    <h2>Massage in Columbus, <em>Ohio</em></h2>
+<section class="service-wrap">
+  <h2>Signature Treatments</h2>
+  <p>Introductory pricing on every session. Choose the style, then the length.</p>
+</section>
+<div class="service-grid">
+  <article class="service-box">
+    <h3>Signature Classic</h3>
+    <p>Swedish style. Long, even strokes when the goal is general ease.</p>
+    <p class="amt">60 min $70<br>90 min $105</p>
+    <a href="/massage-columbus-ohio/">Massage in Columbus →</a>
+  </article>
+  <article class="service-box">
+    <h3>Mediterranean</h3>
+    <p>Slower, firmer work on the neck, shoulders, and tight areas.</p>
+    <p class="amt">60 min $70<br>90 min $105</p>
+    <a href="/massage-columbus-ohio/">Massage in Columbus →</a>
+  </article>
+  <article class="service-box">
+    <h3>Aromatherapy</h3>
+    <p>The same full-body structure with an essential-oil blend chosen when you arrive.</p>
+    <p class="amt">60 min $85<br>90 min $120</p>
+    <a href="/aromatherapy-massage-dublin/">Aromatherapy →</a>
+  </article>
+  <article class="service-box">
+    <h3>Couples</h3>
+    <p>Two tables, one private suite. Each guest chooses a style.</p>
+    <p class="amt">Classic $140 / $210<br>Aroma $170 / $240</p>
+    <a href="/couples-massage-columbus-ohio/">Couples massage →</a>
+  </article>
+  <article class="service-box">
+    <h3>Add-ons</h3>
+    <p>Ten extra minutes. Ask when you book or when you arrive.</p>
+    <p class="amt">Scalp Serenity Ritual $15<br>Happy Feet Ritual $15<br>Hot Stone Release $15<br>Face &amp; Eye Relaxation $15</p>
+  </article>
+</div>
+
+<section class="band">
+  <div>
+    <h2>Session packages</h2>
+    <p>Prepaid Classic or Mediterranean, single person only. Not for aromatherapy or couples.</p>
+    <p>6-Session Package $200 · 9-Session Package $300</p>
+    <a href="/packages/">Package details →</a>
   </div>
-  <p style="text-align:center;max-width:720px;margin:0 auto 3.5rem;color:var(--ink-soft);">Introductory pricing on every session. Serving Dublin, Columbus, Powell, Worthington, and Hilliard.</p>
-  <div style="max-width:1100px;margin:0 auto 4rem;border-radius:18px;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.12);">
-    <img src="images/6GaKy.jpg" alt="Relaxing professional massage at Palm Haven Spa in Dublin Ohio">
-  </div>
-  <div class="services-grid">
-    <div class="service-card">
-      <h3>Mediterranean / Classic Massage</h3>
-      <p>Timeless classic techniques with Mediterranean-inspired firm pressure. Releases deep tension and restores balance.</p>
-      <div class="service-price" style="font-size:1.05rem;">
-        <div>60 min — <strong>$70</strong> <span style="font-size:0.82rem;opacity:0.6;">(Regular $120)</span></div>
-        <div>90 min — <strong>$105</strong> <span style="font-size:0.82rem;opacity:0.6;">(Regular $180)</span></div>
-      </div>
-      <a class="card-link" href="/massage-columbus-ohio/">Massage in Columbus →</a>
-    </div>
-    <div class="service-card">
-      <h3>Aromatherapy Essential Oil Massage</h3>
-      <p>Personalized organic essential oil blends chosen to calm the nervous system. Scent and touch for deep relaxation.</p>
-      <div class="service-price" style="font-size:1.05rem;">
-        <div>60 min — <strong>$85</strong> <span style="font-size:0.82rem;opacity:0.6;">(Regular $135)</span></div>
-        <div>90 min — <strong>$120</strong> <span style="font-size:0.82rem;opacity:0.6;">(Regular $195)</span></div>
-      </div>
-      <a class="card-link" href="/aromatherapy-massage-dublin/">Aromatherapy details →</a>
-    </div>
-    <div class="service-card">
-      <h3>Couples Massage</h3>
-      <p>Share synchronized massage side by side in our private suite. Classic or aromatherapy, 60 or 90 minutes.</p>
-      <div class="service-price" style="font-size:1.05rem;">
-        <div>Classic 60 min — <strong>$140</strong></div>
-        <div>Classic 90 min — <strong>$210</strong></div>
-      </div>
-      <a class="card-link" href="/couples-massage-columbus-ohio/">Couples massage →</a>
-    </div>
-    <div class="service-card">
-      <h3>Add-on Enhancements</h3>
-      <p>10 minutes each — <strong>$15</strong></p>
-      <p style="margin-bottom:0;">Head massage · Foot therapy · Hot stone · Face &amp; eye relaxation</p>
-    </div>
-    <div class="service-card">
-      <h3>Session Packages</h3>
-      <p>Prepaid Classic massage packages for a regular Dublin self-care rhythm.</p>
-      <div class="service-price" style="font-size:1.05rem;">
-        <div>6 sessions — <strong>$200</strong></div>
-        <div>9 sessions — <strong>$300</strong></div>
-      </div>
-      <a class="card-link" href="/packages/">View packages →</a>
-    </div>
-    <div class="service-card">
-      <h3>Visit Palm Haven</h3>
-      <p>5910 Venture Drive, Dublin, OH 43017. Open daily 10am–9pm. Call or text (614) 815-3399.</p>
-      <a class="card-link" href="/contact/">Map &amp; hours →</a>
-    </div>
+  <div>
+    <h2>Where slowness becomes sacred</h2>
+    <p>Palm Haven was born from a simple belief: that wellness is a return — to breath, to touch, to the parts of ourselves we have set aside.</p>
+    <a href="/about/">Read our story →</a>
   </div>
 </section>
 
-<section id="story">
-  <div class="story">
-    <div class="story-image" role="img" aria-label="Palm Haven Spa sanctuary"></div>
-    <div class="story-text">
-      <div class="section-eyebrow">Our Story</div>
-      <h2>Where slowness<br>becomes <em>sacred.</em></h2>
-      <p>Palm Haven was born from a simple belief: that wellness is not a luxury, but a return. A return to breath. To touch. To the parts of ourselves we have quietly set aside.</p>
-      <p>Our Dublin studio is a tropical refuge for guests across Columbus and the northwest suburbs. Therapists here are listeners first.</p>
-      <a class="card-link" href="/about/">Read our story →</a>
-    </div>
+<section class="visit">
+  <h2>Visit Palm Haven</h2>
+  <p>5910 Venture Drive, Suite A, Dublin, OH 43017<br>Monday–Sunday, 10am–9pm · <a href="tel:+16148153399">(614) 815-3399</a></p>
+  <div class="map-wrap">
+    <iframe title="Palm Haven Spa on Google Maps" src="https://www.google.com/maps?q=5910+Venture+Drive+Suite+A+Dublin+OH+43017&output=embed" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-</section>
-
-<section class="ritual" id="packages-preview">
-  <div class="section-header">
-    <div class="section-eyebrow" style="color:var(--cream);opacity:0.9;">Session Packages</div>
-    <h2>Prepaid value for<br>regular self-care</h2>
-  </div>
-  <p class="ritual-text">Valid for Mediterranean / Classic Massage (single person). Not applicable to aromatherapy or couples sessions.</p>
-  <div class="pkg-grid">
-    <div class="pkg-card">
-      <div class="amt">$200</div>
-      <h3>6-Session Package</h3>
-      <p>6 × 30-minute sessions<br>Ideal for a monthly routine</p>
-    </div>
-    <div class="pkg-card">
-      <div class="amt">$300</div>
-      <h3>9-Session Package</h3>
-      <p>9 × 30-minute sessions<br>Best value for committed care</p>
-    </div>
-  </div>
-  <div style="text-align:center;margin-top:3rem;">
-    <a href="/packages/" class="btn-primary" style="background:var(--gold);border-color:var(--gold);color:var(--leaf-deep);">Package details</a>
-  </div>
+  <p><a href="/contact/">Map &amp; hours →</a></p>
 </section>
 
 <footer>
@@ -178,14 +161,11 @@
     <a href="/massage-dublin-ohio/">Dublin Massage</a>
     <a href="/couples-massage-columbus-ohio/">Couples</a>
     <a href="/aromatherapy-massage-dublin/">Aromatherapy</a>
-    <a href="/packages/">Packages</a>
-    <a href="/about/">About</a>
     <a href="/contact/">Contact</a>
   </div>
   <div class="footer-nap">
-    Palm Haven Spa · 5910 Venture Drive, Dublin, Ohio 43017<br>
-    <a href="tel:+16148153399">(614) 815-3399</a> · <a href="mailto:info@palmhavenspa.com">info@palmhavenspa.com</a><br>
-    Monday–Sunday, 10am–9pm
+    Palm Haven Spa · 5910 Venture Drive, Suite A, Dublin, Ohio 43017<br>
+    <a href="tel:+16148153399">(614) 815-3399</a> · Monday–Sunday, 10am–9pm
   </div>
   <div class="footer-bottom">© 2026 Palm Haven Spa. All rights reserved.</div>
 </footer>
