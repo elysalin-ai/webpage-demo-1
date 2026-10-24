@@ -137,10 +137,11 @@
     .service-wrap > p { color: #5b6b5e; max-width: 44rem; margin: 0 auto 2rem; font-size: 1.16rem; line-height: 1.8; }
     .service-grid {
       width: 100%;
+      max-width: 1100px;
       margin: 0 auto 1.2rem;
       padding: 0 5vw;
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 1.2rem;
       box-sizing: border-box;
     }
@@ -175,7 +176,13 @@
       font-size: 1.12rem;
       line-height: 1.75;
     }
-    .addon-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
+    .addon-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
     .addon-box { background: #ead9a8; padding: 1.5rem 1.2rem 1.3rem; text-align: left; }
     .addon-box h4 { font-size: 1.35rem; color: #2f4636; margin: 0 0 .5rem; line-height: 1.25; }
     .addon-box p { margin: 0 0 .7rem; color: #4d5c50; font-size: 1.02rem; line-height: 1.7; }
@@ -237,7 +244,7 @@
     <p>Choose Mediterranean when you prefer deeper, targeted work instead of a full-body Swedish flow.</p>
   </div>
 </section>
-<section class="split reverse band">
+<section class="split">
   <img src="../images/massage-couples.jpg" alt="Couples massage in Columbus, Ohio">
   <div class="split-copy">
     <h2>Couples massage</h2>
@@ -292,7 +299,7 @@
     </article>
     <article class="addon-box">
       <h4>Aroma Ritual</h4>
-      <p>A short scent experience before your massage begins. The therapist releases an essential oil blend and invites you to inhale. No extra time.</p>
+      <p>A short scent experience before your massage begins. An essential oil blend is released for you to inhale. No extra time.</p>
       <p class="amt">$15</p>
     </article>
     <article class="addon-box">
